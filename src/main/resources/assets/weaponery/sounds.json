@@ -1,0 +1,12 @@
+{
+  "pistol_shooting": {
+    "category": "player",
+    "subtitle": "subtitles.pistol_shooting",
+    "sounds": [
+      {
+        "name": "weaponery:9mm-pistol-shoot-short-reverb-7152",
+        "stream": false
+      }
+    ]
+  }
+}

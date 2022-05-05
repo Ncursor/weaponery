@@ -1,9 +1,46 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "PistolShot",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistol_shot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pistol",
+      "type": "rangeditem",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistol"
+    }
+  ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "pistol_shooting",
+      "files": [
+        "9mm-pistol-shoot-short-reverb-7152"
+      ],
+      "category": "player",
+      "subtitle": "Pistol shooting"
+    }
+  ],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.weaponery.pistol": "Pistol",
+      "subtitles.pistol_shooting": "Pistol shooting"
+    }
   },
   "foldersRoot": {
     "name": "~",

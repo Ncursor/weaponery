@@ -1,0 +1,40 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "gun",
+    "customModelName": "Normal",
+    "name": "Pistol",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 1000,
+    "actionSound": {
+      "value": "CUSTOM:pistol_shooting"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 0.1,
+    "onRangedItemUsed": {
+      "name": "PistolShot"
+    },
+    "bulletPower": 15.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Blocks.STONE_BUTTON"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}
