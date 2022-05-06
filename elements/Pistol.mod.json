@@ -20,7 +20,7 @@
       "value": "CUSTOM:pistol_shooting"
     },
     "hasGlow": false,
-    "animation": "none",
+    "animation": "bow",
     "enableMeleeDamage": true,
     "damageVsEntity": 0.1,
     "onRangedItemUsed": {
